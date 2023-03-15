@@ -7,7 +7,7 @@ export const ImagePreview = ({ item, index, setFiles }) => {
       <img
         src={URL.createObjectURL(item)}
         alt="files"
-        className="w-[100%] h-[100%]"
+        className="w-[100%] h-[100%] object-cover rounded-md"
       />
       <MdCancel
         color="red"
