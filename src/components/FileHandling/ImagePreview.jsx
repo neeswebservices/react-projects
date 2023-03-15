@@ -11,8 +11,8 @@ export const ImagePreview = ({ item, index, setFiles }) => {
       />
       <MdCancel
         color="red"
-        size={20}
-        className="absolute top-0 right-0 cursor-pointer"
+        size={15}
+        className="absolute top-1 right-1 cursor-pointer"
         onClick={() => {
           setFiles((prev) => prev.filter((item, i) => i !== index));
         }}
